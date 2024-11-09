@@ -1,0 +1,40 @@
+--texto-secundario: rgba(255, 255,255,.6)
+
+--fundo-card: #1b2226
+
+--texto-primario: #FFF .9
+
+--primario: #70b5f9
+
+DIA 1
+
+- card perfil
+borders 4px
+border-radius 16px
+
+-foto perfil
+10rem 10rem
+border 4px
+
+-nome
+weight 600
+size 1.5rem
+
+-subnome
+(Desenvolvedora | HTML | CSS | Typescript | Node)
+size 1rem
+weight 600
+
+- sobre
+(Fala sobre #javascript, #frontend, #reactjs, e #backend)
+weight 400
+size 0.8rem
+
+-contato
+weight 700
+
+-botoes
+border 1px
+
+-empresa
+2rem 2rem
