@@ -6,6 +6,24 @@
 
 --primario: #70b5f9
 
+--input: #38434f
+
+--logo-search: <i class="fa-solid fa-magnifying-glass"></i>
+
+--logo-home: <i class="fa-solid fa-house"></i>
+
+--logo-group: <i class="fa-solid fa-user-group"></i>
+
+--logo-business-center: <i class="fa-solid fa-briefcase"></i>
+
+--logo-sms: <i class="fa-solid fa-comment-dots"></i>
+
+--logo-notifications: <i class="fa-solid fa-bell"></i>
+
+--logo-apps: <i class="fa-solid fa-layer-group"></i>
+
+--logo-linkedin: <i class="fa-brands fa-linkedin"></i>
+
 DIA 1
 
 - card perfil
@@ -38,3 +56,32 @@ border 1px
 
 -empresa
 2rem 2rem
+
+DIA 2
+- logo linkedin 34x34px
+- input pesquisa (search)
+- inicio (home)
+- minha rede (group)
+- vagas (business center)
+- mensagens (sms)
+- notificações (notfications)
+-soluções (apps)
+
+DIA 3	
+Foto de <a href="https://unsplash.com/pt-br/@zhenyao_photo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Zhen Yao</a> na <a href="https://unsplash.com/pt-br/fotografias/um-hidrante-vermelho-sentado-na-frente-de-um-predio-de-tijolos-n5GhsShVQ1g?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+      
+
+Foto de <a href="https://unsplash.com/pt-br/@jorok?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Georgi Kalaydzhiev</a> na <a href="https://unsplash.com/pt-br/fotografias/um-mulher-desgastar-fones-de-ouvido-ficar-ligado-a-rua-kwIYYoBAfDc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+      
+
+Foto de <a href="https://unsplash.com/pt-br/@benriquo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Benjamin Chambon</a> na <a href="https://unsplash.com/pt-br/fotografias/uma-vista-de-um-corpo-de-agua-de-um-plano-F-haNd2Y500?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+      
+
+CARD - destaques
+3 cards com 
+- publicação em texto secundario
+- legenda texto primario
+- foto
+- bolinhas de reação 
+- numeros de reação
+- numeros de comentarios
