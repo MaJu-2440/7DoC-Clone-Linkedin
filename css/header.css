@@ -1,0 +1,53 @@
+/*HEADER*/
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--fundo-card);
+    padding: .5rem 0;
+}
+.header_pesquisar-container {
+    display: flex;
+    gap: 10px;
+
+    .logo-linkedin {
+        font-size: 34px;
+    }
+}
+.header_pesquisar-area {
+    background-color: var(--input);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    padding: .5rem;
+
+    input {
+        border: none;
+        background: transparent;
+    }
+    input::placeholder {
+        color: var(--texto-secundario);
+    }
+}
+.navbar_links {
+    display: flex;
+    gap: 1.5rem;
+    font-size: .6rem;
+    li {
+        display: grid;
+        text-align: center;
+        gap: .3rem;
+        font-weight: 400;
+        color: var(--texto-secundario);
+        
+        i {
+            font-size: 1rem;
+            color: var(--texto-primario);
+        }
+    }
+
+    .navbar_links-divisão {
+        border: 1px solid var(--texto-secundario);
+    }
+}

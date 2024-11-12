@@ -1,0 +1,25 @@
+.bolinha-reação {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.bolinhas{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50% 50%;
+    position: absolute;
+}
+.bolinha-red {
+    background-color: red;
+}
+.bolinha-blue {
+    transform: translate(50%, 0);
+    background-color: blue;
+}
+.bolinha-green {
+    background-color: green;
+    transform: translate(100%, 0);
+}
+.bolinha-reação-reações {
+    transform: translate(150%,0);
+}

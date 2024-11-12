@@ -1,0 +1,50 @@
+.card_atividades {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    
+    h2 {
+        line-height: 1.5rem;
+    }
+    span {
+        color: var(--primario);
+        font-weight: 600;
+    }
+}
+
+.card_atividades_recentes-container {
+
+    span {
+        line-height: 2rem;
+        color: var(--texto-secundario);
+        font-weight: 400;
+    }
+
+}
+.card_atividades_recentes-content {
+    border-bottom: 1px solid var(--texto-secundario);
+
+    img{
+        width: 50px;
+        height: 50px;
+        float: left;
+        margin-right: 1rem;
+    }
+
+    p {
+        text-align: justify;
+    }
+
+    .destaque-card-info {
+        padding: 0;
+    }
+}
+.card_atividades a {
+    text-decoration: none;
+    color: var(--primario);
+    font-weight: 600;
+    
+    align-self: center;
+    margin-top: .5rem;
+}
+

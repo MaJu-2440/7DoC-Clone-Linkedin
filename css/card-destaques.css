@@ -1,0 +1,32 @@
+/*CARD DESTAQUES*/
+.card_destaques-container h2 {
+    margin-bottom: 1rem;
+}
+.card_destaques-container .card_destaques-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: .5rem;
+}
+.card {
+    border: 1px solid var(--texto-secundario);
+    border-radius: 16px;
+    width: 100%;
+}
+.card img {
+    width: inherit;
+    height: 152px;
+    object-fit: cover;
+    object-position: center;
+}
+.card span {
+    color: var(--texto-secundario);
+}
+.card-texto {
+    padding: .8rem;
+}
+.destaque-card-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem;
+}

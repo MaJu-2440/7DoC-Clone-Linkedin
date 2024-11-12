@@ -3,42 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/card-perfil.css">
+    <link rel="stylesheet" href="css/card-destaques.css">
+    <link rel="stylesheet" href="css/bolinhas-reação.css">
+    <link rel="stylesheet" href="css/card-atividades.css">
+    <link rel="stylesheet" href="css/card-sobre.css">
+
+
     <script src="https://kit.fontawesome.com/8b81291940.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="linkedin-in-brands-solid (1).svg">
     <title>Perfil | Linkedin</title>
 </head>
 <body>
     <header class="header">
-        <div class="header-pesquisar-container">
+        <div class="header_pesquisar-container">
             <i class="fa-brands fa-linkedin logo-linkedin"></i>
-            <div class="pesquisar-area">
+            <div class="header_pesquisar-area">
                 <i class="fa-solid fa-magnifying-glass"></i>
                 <input type="text" name="pesquisar" id="pesquisar" placeholder="Pesquisar">
             </div>
         </div>
             
             <nav class="navbar">
-                <ul class="navbar-links">
+                <ul class="navbar_links">
                     <li><i class="fa-solid fa-house"></i>Ínicio</li>
                     <li><i class="fa-solid fa-user-group"></i>Minha rede</li>
                     <li><i class="fa-solid fa-briefcase"></i>Vagas</li>
                     <li><i class="fa-solid fa-comment-dots"></i>Mensagens</li>
                     <li><i class="fa-solid fa-bell"></i>Notificações</li>
-                    <hr class="nav-divisão">
+                    <hr class="navbar_links-divisão">
                     <li><i class="fa-solid fa-layer-group"></i>Soluções</li>
                 </ul>
             </nav>
     </header>
 
     <main>
-        <section class="card_container">
+        <section class="card_perfil-container">
             <div class="capa-perfil"></div>
 
             <img class="foto-perfil" src="assets/foto-perfil.png" alt="Foto de perfil">
 
-            <div class="card-content">
-                <div class="card-info">
+            <div class="card_perfil-content">
+                <div class="card_perfil-info">
                     <h2 class="perfil-nome">Nome Sobrenome</h2>
 
                     <p class="perfil-interesses">Desenvolvedora | HTML | CSS | Typescript | Node</p>
@@ -51,12 +60,12 @@
                     <span class="perfil-info perfil-info-destaque">123 seguidores - 456 conexões</span>
 
                     <div class="btn">
-                        <button class="btn-destaque">Mensagem</button>
-                        <button>Mais</button>
+                        <button class="card_perfil-btn card_perfil-btn-destaque">Mensagem</button>
+                        <button class="card_perfil-btn">Mais</button>
                     </div>
                 </div>
 
-                <div class="perfil-historico">
+                <div class="card_perfil-historico">
                     <figure class="perfil-historico-trabalho">
                         <img src="assets/empresa-perfil.png" alt="Foto empresa">
                         <figcaption>Empresa</figcaption>
@@ -69,9 +78,9 @@
             </div>
         </section>
 
-        <section class="card_destaques">
+        <section class="card_destaques-container">
             <h2>Destaques</h2>
-            <div class="cards-container">
+            <div class="card_destaques-content">
                 <div class="card">
                     <div class="card-texto">
                         <span>Publicação</span>
@@ -92,6 +101,7 @@
                         <span class="destaque-comentarios">123 Comentários</span>
                     </div>
                 </div>
+
                 <div class="card">
                     <div class="card-texto">
                         <span>Publicação</span>
@@ -111,6 +121,7 @@
                         <span class="destaque-comentarios">123 Comentários</span>
                     </div>
                 </div>
+
                 <div class="card">
                     <div class="card-texto">
                         <span>Publicação</span>
@@ -131,6 +142,60 @@
                     </div>
                 </div>
             </div>
+        </section>
+
+        <section class="card_atividades">
+            <h2>Atividades</h2>
+
+            <span>4008 seguidores</span>
+
+            <div class="card_atividades_recentes-container">
+                <span>Nome Sobrenome publicou isso - 1 sem</span>
+
+                <div class="card_atividades_recentes-content">
+                    <img src="assets/benjamin-chambon-F-haNd2Y500-unsplash.jpg" alt="Foto de Benjamin Chambon na Unsplash">
+
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, aperiam. Rem in aspernatur quia perspiciatis nostrum, error eveniet asperiores assumenda voluptate saepe ratione deserunt animi veritatis, nulla totam, minima quidem.</p>
+
+                    <div class="destaque-card-info">
+                        <div class="bolinha-reação">
+                            <div class="bolinhas bolinha-red"></div>
+                            <div class="bolinhas bolinha-blue"></div>
+                            <div class="bolinhas bolinha-green"></div>
+                            <span class="bolinha-reação-reações">987</span>
+                        </div>    
+                        <span class="destaque-comentarios">123 Comentários</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card_atividades_recentes-container">
+                <span>Nome Sobrenome publicou isso - 1 sem</span>
+
+                <div class="card_atividades_recentes-content">
+                    <img src="assets/benjamin-chambon-F-haNd2Y500-unsplash.jpg" alt="Foto de Benjamin Chambon na Unsplash">
+
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt aspernatur a assumenda ipsa fugit ipsam fugiat voluptates accusantium numquam, nesciunt ex maxime repudiandae veritatis quam corrupti fuga aliquam nemo earum.</p>
+
+                    <div class="destaque-card-info">
+                        <div class="bolinha-reação">
+                            <div class="bolinhas bolinha-red"></div>
+                            <div class="bolinhas bolinha-blue"></div>
+                            <div class="bolinhas bolinha-green"></div>
+                            <span class="bolinha-reação-reações">987</span>
+                        </div>    
+                        <span class="destaque-comentarios">123 Comentários</span>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#">Exibir todas as atividades -></a>
+        </section>
+
+        <section class="card_sobre">
+            <h2>Sobre</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ducimus excepturi, distinctio ipsa consequuntur saepe sapiente, porro dolorum eum ab earum. Quam hic eos incidunt modi ipsa! Possimus, labore odio?</p>
+        </section>
     </main>
 </body>
 </html>
