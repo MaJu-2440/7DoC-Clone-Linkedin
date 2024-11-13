@@ -1,11 +1,11 @@
 .card_atividades {
     display: flex;
     flex-direction: column;
-    gap: .5rem;
-    
+
     h2 {
-        line-height: 1.5rem;
+        margin-bottom: 0;
     }
+
     span {
         color: var(--primario);
         font-weight: 600;

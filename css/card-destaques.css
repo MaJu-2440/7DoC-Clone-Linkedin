@@ -1,7 +1,4 @@
 /*CARD DESTAQUES*/
-.card_destaques-container h2 {
-    margin-bottom: 1rem;
-}
 .card_destaques-container .card_destaques-content {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

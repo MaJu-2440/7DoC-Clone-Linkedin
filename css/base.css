@@ -40,3 +40,7 @@ section {
     font-size: 14px;
     font-weight: 400;
 }
+
+.titulo_card {
+    margin-bottom: 1rem;
+}

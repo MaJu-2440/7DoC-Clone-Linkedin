@@ -76,7 +76,7 @@ Foto de <a href="https://unsplash.com/pt-br/@jorok?utm_content=creditCopyText&ut
 
 Foto de <a href="https://unsplash.com/pt-br/@benriquo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Benjamin Chambon</a> na <a href="https://unsplash.com/pt-br/fotografias/uma-vista-de-um-corpo-de-agua-de-um-plano-F-haNd2Y500?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
       
-
+DIA 4
 CARD - destaques
 3 cards com 
 - publicação em texto secundario
@@ -85,3 +85,29 @@ CARD - destaques
 - bolinhas de reação 
 - numeros de reação
 - numeros de comentarios
+
+DIA 5
+Exeperiencias
+- foto
+- empresa
+- 1 a 7 m
+lista
+- cargo h3 weight 500
+- tipo-cargo span weight 400
+- duração span texto secundario
+- local span texto secundario
+
+Full stack Developer
+Tempo integral
+jan de 2022 - o momento - 5 meses
+Cidade, e stado e país
+
+Fullstack Developer (JR)
+Tempo integral
+jun de 2021 - jan de 2022 - 8 meses
+Cidade, estado país
+
+Front-end Developer
+Meio período
+jan de 2021 - jun de 2021 - 6 meses
+Cidade, estado e país
