@@ -1,0 +1,19 @@
+.foto-redonda {
+    border-radius: 50% 50%;
+}
+.btn-sugestao {
+    margin: .5rem 60px 1rem;
+    padding: .5rem 1.5rem;
+
+    background-color: transparent;
+    color: white;
+    font-weight: 600;
+    border-radius: 16px;
+    border: 1px solid white;
+
+    cursor: pointer;
+}
+.btn-sugestao:hover {
+    color: var(--primario);
+    border: 1px solid var(--primario);
+}

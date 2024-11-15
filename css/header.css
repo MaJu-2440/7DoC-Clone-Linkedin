@@ -40,11 +40,15 @@
         gap: .3rem;
         font-weight: 400;
         color: var(--texto-secundario);
+        cursor: pointer;
         
         i {
             font-size: 1rem;
             color: var(--texto-primario);
         }
+    }
+    li:hover {
+        color: var(--texto-primario);
     }
 
     .navbar_links-divisão {
