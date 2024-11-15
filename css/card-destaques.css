@@ -1,5 +1,5 @@
 /*CARD DESTAQUES*/
-.card_destaques-container .card_destaques-content {
+.section_destaques .card_destaques-content {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: .5rem;
@@ -14,9 +14,6 @@
     height: 152px;
     object-fit: cover;
     object-position: center;
-}
-.card span {
-    color: var(--texto-secundario);
 }
 .card-texto {
     padding: .8rem;

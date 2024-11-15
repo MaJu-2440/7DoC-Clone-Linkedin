@@ -41,6 +41,42 @@ section {
     font-weight: 400;
 }
 
-.titulo_card {
+.section-titulo {
     margin-bottom: 1rem;
+}
+
+.card-foto {
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1rem;
+    float: left;
+}
+
+.card-titulo {
+    line-height: 1.2rem;
+    font-weight: 600;
+}
+
+.card-subtitulo {
+    font-weight: 400;
+    font-size: .9rem;
+}
+
+.card-info {
+    color: var(--texto-secundario);
+    font-weight: 400;
+    font-size: .8rem;
+}
+
+.card-content {
+    padding: .6rem 0;
+}
+
+.destaque {
+    color: var(--primario);
+    font-weight: 600;
+}
+
+hr {
+    border: 1px solid var(--texto-secundario);
 }

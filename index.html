@@ -42,7 +42,7 @@
     </header>
 
     <main>
-        <section class="card_perfil-container">
+        <section class="section_perfil">
             <div class="capa-perfil"></div>
 
             <img class="foto-perfil" src="assets/foto-perfil.png" alt="Foto de perfil">
@@ -51,14 +51,14 @@
                 <div class="card_perfil-info">
                     <h2 class="perfil-nome">Nome Sobrenome</h2>
 
-                    <p class="perfil-interesses">Desenvolvedora | HTML | CSS | Typescript | Node</p>
+                    <p class="card-titulo">Desenvolvedora | HTML | CSS | Typescript | Node</p>
 
-                    <p class="perfil-sobre">Fala sobre #javascript, #frontend, #reactjs, e #backend</p>
+                    <p class="card-info">Fala sobre #javascript, #frontend, #reactjs, e #backend</p>
 
                     
-                    <p class="perfil-info">Cidade, estado, Brasil - <strong class="perfil-info-destaque">Informações de contato</strong></p>
+                    <p class="card-info">Cidade, estado, Brasil - <strong class="destaque">Informações de contato</strong></p>
                     
-                    <span class="perfil-info perfil-info-destaque">123 seguidores - 456 conexões</span>
+                    <span class="card-info destaque">123 seguidores - 456 conexões</span>
 
                     <div class="btn">
                         <button class="card_perfil-btn card_perfil-btn-destaque">Mensagem</button>
@@ -66,27 +66,29 @@
                     </div>
                 </div>
 
-                <div class="card_perfil-historico">
+                <div class="card-container">
                     <figure class="perfil-historico-trabalho">
-                        <img src="assets/empresa-perfil.png" alt="Foto empresa">
-                        <figcaption>Empresa</figcaption>
+                        <img src="assets/empresa-perfil.png" alt="Foto empresa" class="card-foto">
+                        <figcaption class="card-titulo">Empresa</figcaption>
                     </figure>
+
                     <figure class="perfil-historico-estudo">
-                        <img src="assets/estudo-perfil.png" alt="Foto instituição">
-                        <figcaption>Instituição de ensino</figcaption>
+                        <img src="assets/estudo-perfil.png" alt="Foto instituição" class="card-foto">
+                        <figcaption class="card-titulo">Instituição de ensino</figcaption>
                     </figure>
                 </div>
             </div>
         </section>
 
-        <section class="card_destaques-container">
-            <h2 class="titulo_card">Destaques</h2>
+        <section class="section_destaques">
+            <h2 class="section-titulo">Destaques</h2>
+
             <div class="card_destaques-content">
                 <div class="card">
                     <div class="card-texto">
-                        <span>Publicação</span>
+                        <span class="card-info">Publicação</span>
 
-                        <p>Legenda da publicação</p>
+                        <p class="card-subtitulo">Legenda da publicação</p>
                     </div>
 
                     <img src="assets/zhen-yao-n5GhsShVQ1g-unsplash.jpg" alt="Foto de Zhen Yao na Unsplash">
@@ -105,9 +107,9 @@
 
                 <div class="card">
                     <div class="card-texto">
-                        <span>Publicação</span>
+                        <span class="card-info">Publicação</span>
 
-                        <p>Legenda da publicação</p>
+                        <p class="card-subtitulo">Legenda da publicação</p>
                     </div>
 
                     <img src="assets/georgi-kalaydzhiev-kwIYYoBAfDc-unsplash.jpg" alt="Foto de Georgi Kalaydzhiev na Unsplash">
@@ -125,9 +127,9 @@
 
                 <div class="card">
                     <div class="card-texto">
-                        <span>Publicação</span>
+                        <span class="card-info">Publicação</span>
 
-                        <p>Legenda da publicação</p>
+                        <p class="card-subtitulo">Legenda da publicação</p>
                     </div>
                     <img src="assets/benjamin-chambon-F-haNd2Y500-unsplash.jpg" alt="Foto de Benjamin Chambon na Unsplash">
 
@@ -145,38 +147,18 @@
             </div>
         </section>
 
-        <section class="card_atividades">
-            <h2 class="titulo_card">Atividades</h2>
+        <section class="section_atividades">
+            <h2 class="section-titulo">Atividades</h2>
 
-            <span>4008 seguidores</span>
+            <p class="card-titulo destaque">4008 seguidores</p>
 
-            <div class="card_atividades_recentes-container">
-                <span>Nome Sobrenome publicou isso - 1 sem</span>
+            <div class="card-container">
+                <span class="card-info">Nome Sobrenome publicou isso - 1 sem</span>
 
-                <div class="card_atividades_recentes-content">
-                    <img src="assets/benjamin-chambon-F-haNd2Y500-unsplash.jpg" alt="Foto de Benjamin Chambon na Unsplash">
+                <div class="card-content card-com-borda">
+                    <img src="assets/benjamin-chambon-F-haNd2Y500-unsplash.jpg" alt="Foto de Benjamin Chambon na Unsplash" class="card-foto">
 
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, aperiam. Rem in aspernatur quia perspiciatis nostrum, error eveniet asperiores assumenda voluptate saepe ratione deserunt animi veritatis, nulla totam, minima quidem.</p>
-
-                    <div class="destaque-card-info">
-                        <div class="bolinha-reação">
-                            <div class="bolinhas bolinha-red"></div>
-                            <div class="bolinhas bolinha-blue"></div>
-                            <div class="bolinhas bolinha-green"></div>
-                            <span class="bolinha-reação-reações">987</span>
-                        </div>    
-                        <span class="destaque-comentarios">123 Comentários</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card_atividades_recentes-container">
-                <span>Nome Sobrenome publicou isso - 1 sem</span>
-
-                <div class="card_atividades_recentes-content">
-                    <img src="assets/benjamin-chambon-F-haNd2Y500-unsplash.jpg" alt="Foto de Benjamin Chambon na Unsplash">
-
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt aspernatur a assumenda ipsa fugit ipsam fugiat voluptates accusantium numquam, nesciunt ex maxime repudiandae veritatis quam corrupti fuga aliquam nemo earum.</p>
+                    <p class="card-subtitulo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, aperiam. Rem in aspernatur quia perspiciatis nostrum, error eveniet asperiores assumenda voluptate saepe ratione deserunt animi veritatis, nulla totam, minima quidem.</p>
 
                     <div class="destaque-card-info">
                         <div class="bolinha-reação">
@@ -190,21 +172,41 @@
                 </div>
             </div>
 
-            <a href="#">Exibir todas as atividades -></a>
+            <div class="card-container card-com-borda">
+                <span class="card-info">Nome Sobrenome publicou isso - 1 sem</span>
+
+                <div class="card-content">
+                    <img src="assets/benjamin-chambon-F-haNd2Y500-unsplash.jpg" alt="Foto de Benjamin Chambon na Unsplash" class="card-foto">
+
+                    <p class="card-subtitulo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt aspernatur a assumenda ipsa fugit ipsam fugiat voluptates accusantium numquam, nesciunt ex maxime repudiandae veritatis quam corrupti fuga aliquam nemo earum.</p>
+
+                    <div class="destaque-card-info">
+                        <div class="bolinha-reação">
+                            <div class="bolinhas bolinha-red"></div>
+                            <div class="bolinhas bolinha-blue"></div>
+                            <div class="bolinhas bolinha-green"></div>
+                            <span class="bolinha-reação-reações">987</span>
+                        </div>    
+                        <span class="destaque-comentarios">123 Comentários</span>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="destaque">Exibir todas as atividades -></a>
         </section>
 
-        <section class="card_sobre">
-            <h2 class="titulo_card">Sobre</h2>
+        <section class="section_sobre">
+            <h2 class="section-titulo">Sobre</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae laborum quasi quia, ut odio, optio harum provident adipisci enim facilis sequi, delectus nobis numquam dicta? Ducimus non placeat beatae sapiente, perferendis dolor sed alias ab facere minima error perspiciatis iusto nesciunt pariatur officia laudantium! Reiciendis voluptas soluta amet odit numquam?</p>
         </section>
 
-        <section class="card_experiencias_container">
-            <h2 class="titulo_card">Experiências</h2>
+        <section class="section_experiencias">
+            <h2 class="section-titulo">Experiências</h2>
 
-            <div class="experiencias-empresa">
-                <img src="assets/empresa-perfil.png" alt="Foto da empresa">
-                <h3>Nome da empresa</h3>
-                <span>1 a 7 m</span>
+            <div class="card-container">
+                <img src="assets/empresa-perfil.png" alt="Foto da empresa" class="card-foto">
+                <h3 class="card-titulo">Nome da empresa</h3>
+                <span class="card-info">1 a 7 m</span>
             </div>
 
             <ul class="lista-cargos">
@@ -215,11 +217,11 @@
                         <hr class="cargo-traço">
                     </div>
 
-                    <div class="cargo-info">
-                        <h3 class="cargo-titulo">Fullstack Developer</h3>
-                        <span class="cargo-tipo">Tempo integral</span>
-                        <span class="cargo-duração">jan de 2022 - o momento - 5 meses</span>
-                        <span class="cargo-local">Cidade, estado e país</span>
+                    <div class="card-container">
+                        <h3 class="card-titulo">Fullstack Developer</h3>
+                        <p class="card-subtitulo">Tempo integral</p>
+                        <span class="card-info">jan de 2022 - o momento - 5 meses</span>
+                        <span class="card-info">Cidade, estado e país</span>
                     </div>
                 </li>
 
@@ -230,11 +232,11 @@
                         <hr class="cargo-traço">
                     </div>
 
-                    <div class="cargo-info">
-                        <h3 class="cargo-titulo">Fullstack Developer (JR)</h3>
-                        <span class="cargo-tipo">Tempo integral</span>
-                        <span class="cargo-duração">jun 2021 - jan de 2022 - 8 meses</span>
-                        <span class="cargo-local">Cidade, estado e país</span>
+                    <div class="card-container">
+                        <h3 class="card-titulo">Fullstack Developer (JR)</h3>
+                        <p class="card-subtitulo">Tempo integral</p>
+                        <span class="card-info">jun 2021 - jan de 2022 - 8 meses</span>
+                        <span class="card-info">Cidade, estado e país</span>
                     </div>
                 </li>
 
@@ -244,14 +246,41 @@
                         <hr class="cargo-traço">
                     </div>
 
-                    <div class="cargo-info">
-                        <h3 class="cargo-titulo">Front-end Developer</h3>
-                        <span class="cargo-tipo">Meio período</span>
-                        <span class="cargo-duração">jan de 2021 - jun de 2021 - 6 meses</span>
-                        <span class="cargo-local">Cidade- estado e país</span>
+                    <div class="card-container">
+                        <h3 class="card-titulo">Front-end Developer</h3>
+                        <p class="card-subtitulo">Meio período</p>
+                        <span class="card-info">jan de 2021 - jun de 2021 - 6 meses</span>
+                        <span class="card-info">Cidade- estado e país</span>
                     </div>
                 </li>
             </ul>
+        </section>
+
+        <section class="section_info_academica">
+            <h2 class="section-titulo">Formação acadêmica</h2>
+
+            <div class="card-container">
+                <img src="assets/estudo-perfil.png" alt="Foto da escola" class="card-foto">
+                <h3 class="card-titulo">Instituição de Ensino</h3>
+                <p class="card-subtitulo">Nome do Curso</p>
+                <span class="card-info">2015 a 2019</span>
+            </div>
+        </section>
+
+        <section class="section_idiomas">
+            <h2 class="section-titulo">Idiomas</h2>
+
+            <div class="card-container">
+                <div class="card-content">
+                    <p class="card-titulo">Português</p>
+                    <span class="card-info">fluente ou nativo</span>
+                </div>
+                <hr>
+                <div class="card-content">
+                    <p class="card-titulo">Inglês</p>
+                    <span class="card-info">nível básico e intermediário</span>
+                </div>
+            </div>
         </section>
     </main>
 </body>

@@ -2,6 +2,7 @@
     position: relative;
     display: flex;
     align-items: center;
+    color: var(--texto-secundario);
 }
 .bolinhas{
     width: .8rem;
@@ -22,4 +23,7 @@
 }
 .bolinha-reação-reações {
     transform: translate(150%,0);
+}
+.destaque-comentarios {
+    color: var(--texto-secundario);
 }

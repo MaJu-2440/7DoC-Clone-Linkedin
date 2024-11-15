@@ -111,3 +111,41 @@ Front-end Developer
 Meio período
 jan de 2021 - jun de 2021 - 6 meses
 Cidade, estado e país
+
+DIA 6
+Formação acadêmica (titulo do card)
+- foto 
+- instituição de ensino (subtitulo do card)
+- nome do curso (sub do sub)
+- 2015 a 2019 (span secundario)
+
+Idiomas (titulo card)
+- portugues (subtitulo)
+- fluente ou nativo (span secundario)
+- hr
+- english (subtitulo)
+- nivel basico e  intermediário (span secundario)
+
+
+TEMP
+section_nome
+section_titulo
+card-container
+card-foto
+card-titulo
+card-subtitulo
+card-info (secundario)
+card-content
+
+DIA 7
+section sugestoes
+As pessoas também viram (section-titulo)
+- card-container
+- card-foto redonda
+- card-titulo (nome e sobrenome)
+- card-info (lorem 10)
+- button (enviar mensagem)
+
+outra section identica
+section-titulo (Pessoas que talvez você conheça)
+- button (conectar)

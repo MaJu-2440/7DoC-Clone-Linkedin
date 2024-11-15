@@ -1,18 +1,3 @@
-.experiencias-empresa {
-    line-height: 1.5rem;
-
-    span {
-        color: var(--texto-secundario);
-    }
-
-    img {
-        width: 3rem;
-        height: 3rem;
-        float: left;
-        margin-right: 1rem;
-    }
-}
-
 .lista-cargos {
     margin-top: 1rem;
     list-style: none;
@@ -23,19 +8,15 @@
 .cargo-item {
     display: flex;
     gap: 2.5rem;
-    margin-bottom: .5rem;
+    margin-bottom: 1rem;
     position: relative;
 }
 
-.cargo-info {
-    line-height: 1.5rem;
+.card-container {
+    line-height: 1.2rem;
 
-    .cargo-duração, .cargo-local {
+    .card-subtitulo, .card-info {
         display: block;
-        color: var(--texto-secundario);
-    }
-    .cargo-tipo {
-        color: var(--texto-primario);
     }
 }
 
