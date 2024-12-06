@@ -24,3 +24,9 @@
     align-items: center;
     padding: .5rem;
 }
+
+@media (max-width: 431px) {
+.section_destaques .card_destaques-content {
+        grid-template-columns: 1fr;
+    }
+}
